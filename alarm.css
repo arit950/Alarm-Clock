@@ -1,0 +1,44 @@
+body{
+    min-height: 100vh;
+    background-color:black;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+.content.disable{
+    opacity: 0.6;
+    
+    pointer-events: none;
+}
+body, .wrapper, .content{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.wrapper{
+    background: white;
+    padding: 30px 40px ;
+    width: auto;
+    border-radius: 10px;
+    flex-direction: column;
+}
+h1{
+    font-size: 45px;
+}
+button{
+    margin-top: 2rem;
+    padding: 0.5rem;
+    font-size: 20px;
+    border: none;
+    background: white;
+    border-bottom: 1px solid black;
+    
+}
+.column select{
+    outline: none;
+    
+    height: 35px;
+    padding: 0.5rem;
+}
